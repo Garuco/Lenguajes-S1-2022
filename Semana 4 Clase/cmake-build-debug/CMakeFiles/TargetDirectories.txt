@@ -1,0 +1,3 @@
+C:/Users/gabog/CLionProjects/Semana 4 Clase/cmake-build-debug/CMakeFiles/Semana_4_Ejercios_Repo_C.dir
+C:/Users/gabog/CLionProjects/Semana 4 Clase/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gabog/CLionProjects/Semana 4 Clase/cmake-build-debug/CMakeFiles/rebuild_cache.dir

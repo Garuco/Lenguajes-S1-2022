@@ -1,0 +1,30 @@
+Ejercicios Imperativos 1
+------------------------
+
+Escriba programas en el lenguaje Golang para implementar los siguientes programas utilizando el estilo procedural imperativo para dicho fin.
+
+
+- Escriba un programa que a partir de una cadena (sea predefinida o leida del usuario), busque mediante iteracviones en dicha cadena, 
+una palabra cualquiera. Debe indicar si se encuentra o no dicha palabra. OBJETIVO: Uso de variables tipo cadena de datos y ciclos. 
+
+- Escriba un programa que inserte un elemento en una determinada posición de un arreglo mediante el uso de punteros. 
+El ejercicio debe contemplar la perdida mediante sustitución del elemento existente en dicho arreglo para la posición seleccionada. 
+Una vez terminado el ejercicio, intente implementar otra variante del mismo que permita no perder el elemento sustituido, 
+si no ampliar el tamaño original del arreglo. Mencione sus allazgos mediante documentación interna. 
+OBJETIVO: Uso de arreglos y punteros e investigación para tratar de ampliar de forma dinámica el tamaño de un arreglo
+
+- Escriba un programa que utilice métodos que reciban como parámetros dos cadenas de caracteres, 
+y que muestre por pantalla un mensaje que indique si la primera de ellas es una subcadena de la segunda. 
+Para dicho ejercicio, intente utilizar alguna función predefinida para dicho fin e intente implementar otra versión que NO utilice ninguna función predefinida. 
+OBJETIVO: uso de librerías, métodos, paso de parámetros, retornos, ciclos.
+
+- Defina una estructura para un inventario de una tienda que vende zapatos. Cada zapato debe contar con la información de su modelo (marca), 
+su precio y la talla del mismo que debe ir únicamente del 34 al 44. 
+
+Escriba un programa que lea la información anterior para 10 zapatos del inventario y los almacene en un arreglo.
+
+Escriba una función que reciba de parámetro dicho arreglo y dos tallas minimo y máximo, 
+y que retorne un nuevo arreglo con los zapatos que concuerden con un el rango de tallas entre dichos mínimo y máximo. 
+Documente la estrategia utilizada para crear un nuevo conjunto de elementos en tiempo de ejecución para ser retornado por la función. 
+OBJETIVO: manejo de estructuras, ciclos, arreglos y slices (consideren el uso de slices para este ejercicio)
+
