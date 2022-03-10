@@ -6,14 +6,14 @@ import (
 )
 
 //Funcion creada por mi
-func buscarSubcadena(subString string, originalString string) bool {
+func buscarSubcadena(subString string, fullString string) bool {
 	i := 0
 	validar := 1
-	for i < len(originalString) {
-		if strings.ToLower(string(originalString[i])) == strings.ToLower(string(subString[0])) {
+	for i < len(fullString) {
+		if strings.ToLower(string(fullString[i])) == strings.ToLower(string(subString[0])) {
 			i++
 			for validar < len(subString) {
-				if strings.ToLower(string(originalString[i])) == strings.ToLower(string(subString[validar])) {
+				if strings.ToLower(string(fullString[i])) == strings.ToLower(string(subString[validar])) {
 					validar++
 					i++
 				} else {
